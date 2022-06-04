@@ -20,5 +20,8 @@ class TelegramScrapper(ScrapBaseAbstract):
         # Put here your SCRAPPY logic. 
         pass
 
+    def _filter(self) -> None:
+        pass 
+
 
      

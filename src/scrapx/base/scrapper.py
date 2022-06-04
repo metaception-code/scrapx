@@ -17,10 +17,13 @@ class ScrapBaseAbstract(abc.ABC):
         Base scrapper setuping. Not necessary 
         """
         pass 
-    
+
 
     @abc.abstractmethod
     def get(self, data_source: Any) -> Any:
+        """
+        We should return data due high level component, 
+        """
         pass 
 
 
